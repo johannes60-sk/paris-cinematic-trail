@@ -1,0 +1,71 @@
+
+  #map{
+
+    height: 80% !important;
+    margin-top: 20px;
+  }
+
+  .main{
+
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+    width: 100% !important;
+    height: 100vh !important;
+  }
+
+  .dropdown-menu {
+    padding-bottom: 32px; 
+  }
+
+.see-more-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #212529 !important;
+    text-align: center !important;
+    height: 30px;
+  }
+
+  .see-more-button a{
+    color: white !important;
+  }
+
+  .see-more-button a:hover{
+    background-color: #212529 !important;
+    color: white !important;
+  }
+  
+  .dropdown-menu {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  /* Style pour la barre de défilement */
+  .dropdown-menu::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Style pour la poignée de la barre de défilement */
+  .dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+  
+  /* Style pour la piste de la barre de défilement */
+  .dropdown-menu::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .selected{
+
+    background-color: brown !important;
+    color: white;
+
+  }
+
+  .deselected{
+    background-color: #fff !important;
+    color: #000 !important;
+  }
